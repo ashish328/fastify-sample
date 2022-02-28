@@ -1,0 +1,25 @@
+{
+  "name": "fastify-sample",
+  "version": "1.0.0",
+  "description": "a small fastify sample project",
+  "main": "server.js",
+  "author": "ashish katukuri",
+  "license": "MIT",
+  "scripts": {
+    "start": "node server",
+    "dev": "nodemon --exec npm run babel-node -- ./server.js",
+    "babel-node": "babel-node --presets='@babel/preset-env' --ignore='foo|bar|baz'"
+  },
+  "dependencies": {
+    "fastify": "^3.27.2",
+    "fastify-swagger": "^4.15.0",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.17.3",
+    "@babel/core": "^7.17.5",
+    "@babel/node": "^7.16.8",
+    "@babel/preset-env": "^7.16.11",
+    "nodemon": "^2.0.15"
+  }
+}

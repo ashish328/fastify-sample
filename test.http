@@ -1,0 +1,8 @@
+### Initial test route
+GET http://localhost:3000/ HTTP/1.1
+
+### Get all items
+Get http://localhost:3000/items HTTP/1.1
+
+### Get single item
+Get http://localhost:3000/items/5 HTTP/1.1
